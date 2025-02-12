@@ -5,7 +5,7 @@ const port = 4000;
 
 
 app.get('/', (req, res) => {
-    res.send('Hello pooja!');
+    res.send('about.html');
 });
 
 app.get('/twitter', (req, res) => {
