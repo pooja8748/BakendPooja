@@ -5,11 +5,11 @@ const port = 4000;
 
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('Hello pooja!');
 });
 
 app.get('/twitter', (req, res) => {
-    res.send('Hello Twitter!');
+    res.send('Hello pooja!');
 });
 
 app.get('/login', (req, res) => {
